@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\VisualK\\AppConsoleTC\\AppConsoleTC.csproj": {}
+    "C:\\VisualK\\appconsoletc\\AppConsoleTC.csproj": {}
   },
   "projects": {
-    "C:\\VisualK\\AppConsoleTC\\AppConsoleTC.csproj": {
+    "C:\\VisualK\\appconsoletc\\AppConsoleTC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VisualK\\AppConsoleTC\\AppConsoleTC.csproj",
+        "projectUniqueName": "C:\\VisualK\\appconsoletc\\AppConsoleTC.csproj",
         "projectName": "AppConsoleTC",
-        "projectPath": "C:\\VisualK\\AppConsoleTC\\AppConsoleTC.csproj",
+        "projectPath": "C:\\VisualK\\appconsoletc\\AppConsoleTC.csproj",
         "packagesPath": "C:\\Users\\Desarrollo\\.nuget\\packages\\",
-        "outputPath": "C:\\VisualK\\AppConsoleTC\\obj\\publish\\linux-x64\\",
+        "outputPath": "C:\\VisualK\\appconsoletc\\obj\\publish\\linux-x64\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Desarrollo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -25,6 +25,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -36,6 +37,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "MongoDB.Driver": {
               "target": "Package",
@@ -63,7 +65,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[3.1.3, 3.1.3]"
+              "version": "[3.1.11, 3.1.11]"
             }
           ],
           "frameworkReferences": {
@@ -71,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

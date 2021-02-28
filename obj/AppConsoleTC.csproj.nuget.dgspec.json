@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\VisualK\\AppConsoleTC\\AppConsoleTC.csproj": {}
+    "C:\\VisualK\\appconsoletc\\AppConsoleTC.csproj": {}
   },
   "projects": {
-    "C:\\VisualK\\AppConsoleTC\\AppConsoleTC.csproj": {
+    "C:\\VisualK\\appconsoletc\\AppConsoleTC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VisualK\\AppConsoleTC\\AppConsoleTC.csproj",
+        "projectUniqueName": "C:\\VisualK\\appconsoletc\\AppConsoleTC.csproj",
         "projectName": "AppConsoleTC",
-        "projectPath": "C:\\VisualK\\AppConsoleTC\\AppConsoleTC.csproj",
+        "projectPath": "C:\\VisualK\\appconsoletc\\AppConsoleTC.csproj",
         "packagesPath": "C:\\Users\\Desarrollo\\.nuget\\packages\\",
-        "outputPath": "C:\\VisualK\\AppConsoleTC\\obj\\",
+        "outputPath": "C:\\VisualK\\appconsoletc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Desarrollo\\AppData\\Roaming\\NuGet\\NuGet.Config",

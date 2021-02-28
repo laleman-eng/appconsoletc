@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ckuUrkG4k9CpfGW7F5NOG+BSZJ5vMceeAGoI0EcktAxkZ4/74hS0aLPVUFrWke+Ao0ODDfQ/RhpN/nBOm8Gl2w==",
+  "dgSpecHash": "iqXm1udNr4lPz2AmLYfRaIdJfbx4KmsWz0qXYWmNj2bODF5hW1zVXe7AWIjeTIJU5Qjh0BVrRKbE/Tu9Iie1pQ==",
   "success": true,
-  "projectFilePath": "C:\\VisualK\\AppConsoleTC\\AppConsoleTC.csproj",
+  "projectFilePath": "C:\\VisualK\\appconsoletc\\AppConsoleTC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Desarrollo\\.nuget\\packages\\dnsclient\\1.3.1\\dnsclient.1.3.1.nupkg.sha512",
     "C:\\Users\\Desarrollo\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",

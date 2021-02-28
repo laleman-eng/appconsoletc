@@ -1,0 +1,12 @@
+C:\VisualK\appconsoletc\bin\Release\netcoreapp3.1\publish\AppConsoleTC
+C:\VisualK\appconsoletc\bin\Release\netcoreapp3.1\publish\AppConsoleTC.dll
+C:\VisualK\appconsoletc\bin\Release\netcoreapp3.1\publish\AppConsoleTC.deps.json
+C:\VisualK\appconsoletc\bin\Release\netcoreapp3.1\publish\AppConsoleTC.runtimeconfig.json
+C:\VisualK\appconsoletc\bin\Release\netcoreapp3.1\publish\AppConsoleTC.pdb
+C:\VisualK\appconsoletc\bin\Release\netcoreapp3.1\publish\DnsClient.dll
+C:\VisualK\appconsoletc\bin\Release\netcoreapp3.1\publish\MongoDB.Bson.dll
+C:\VisualK\appconsoletc\bin\Release\netcoreapp3.1\publish\MongoDB.Driver.dll
+C:\VisualK\appconsoletc\bin\Release\netcoreapp3.1\publish\MongoDB.Driver.Core.dll
+C:\VisualK\appconsoletc\bin\Release\netcoreapp3.1\publish\MongoDB.Libmongocrypt.dll
+C:\VisualK\appconsoletc\bin\Release\netcoreapp3.1\publish\Newtonsoft.Json.dll
+C:\VisualK\appconsoletc\bin\Release\netcoreapp3.1\publish\SharpCompress.dll
