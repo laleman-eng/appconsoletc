@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<soap:Body>
+		<GetSeriesResponse xmlns="http://bancocentral.org/">
+			<GetSeriesResult>
+				<Codigo>0</Codigo>
+				<Descripcion/>
+				<Series>
+					<fameSeries>
+						<header xmlns="">F072.CLP.NZD.N.O.D</header>
+						<seriesKey xmlns="">
+							<keyFamilyId>F072</keyFamilyId>
+							<seriesId>F072.CLP.NZD.N.O.D</seriesId>
+							<dataStage>INTERNAL</dataStage>
+							<exists>true</exists>
+						</seriesKey>
+						<precision xmlns="">2</precision>
+						<obs xmlns="">
+							<indexDateString>22-10-2020</indexDateString>
+							<seriesKey>
+								<keyFamilyId>F072</keyFamilyId>
+								<seriesId>F072.CLP.NZD.N.O.D</seriesId>
+								<dataStage>INTERNAL</dataStage>
+								<exists>true</exists>
+							</seriesKey>
+							<statusCode>OK</statusCode>
+							<value>523.13</value>
+						</obs>
+					</fameSeries>
+				</Series>
+				<SeriesInfos/>
+			</GetSeriesResult>
+		</GetSeriesResponse>
+	</soap:Body>
+</soap:Envelope>

@@ -1,0 +1,764 @@
+19:52:40 Iniciando proceso
+19:53:24 Iniciando proceso
+19:53:36 Conexion Exitosa MongoDB
+19:53:52 Iniciando descarga TC Fecha: 2020-10-28
+19:55:20 Iniciando proceso
+19:55:29 Conexion exitosa MongoDB
+19:56:25 Iniciando proceso
+19:56:42 Conexion exitosa MongoDB
+19:56:46 Iniciando descarga TC Fecha: 2020-10-28
+19:58:18 AppConsoleTC.Controlador
+wsIndicadorBC - A timeout occured after 30000ms selecting a server using CompositeServerSelector{ Selectors = MongoDB.Driver.MongoClient+AreSessionsSupportedServerSelector, LatencyLimitingServerSelector{ AllowedLatencyRange = 00:00:00.0150000 } }. Client view of cluster state is { ClusterId : "1", ConnectionMode : "Automatic", Type : "Unknown", State : "Disconnected", Servers : [{ ServerId: "{ ClusterId : 1, EndPoint : "192.168.3.1:27017" }", EndPoint: "192.168.3.1:27017", ReasonChanged: "Heartbeat", State: "Disconnected", ServerVersion: , TopologyVersion: , Type: "Unknown", HeartbeatException: "MongoDB.Driver.MongoConnectionException: An exception occurred while opening a connection to the server.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): No connection could be made because the target machine actively refused it. 192.168.3.1:27017
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.<>c.<ConnectAsync>b__274_0(IAsyncResult iar)
+--- End of stack trace from previous location where exception was thrown ---
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.ConnectAsync(Socket socket, EndPoint endPoint, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.CreateStreamAsync(EndPoint endPoint, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelperAsync(CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelperAsync(CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.InitializeConnectionAsync(CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.HeartbeatAsync(CancellationToken cancellationToken)", LastHeartbeatTimestamp: "2020-10-28T22:58:03.1690804Z", LastUpdateTimestamp: "2020-10-28T22:58:03.1690895Z" }] }.
+
+20:04:39 Iniciando proceso
+20:04:52 Iniciando proceso descarga TC Fecha: 2020-10-28
+20:04:59 Codigo: Euro
+20:05:40 Extrayendo resultado peticion http: 
+20:20:49 Iniciando proceso
+20:20:50 Iniciando proceso descarga TC Fecha: 2020-10-28
+20:20:50 Codigo: Euro
+20:20:52 Extrayendo datos peticion POST: 
+20:20:52 Resultado: OK valor: 913.13
+20:20:52 Documento Insertado en BD
+20:20:59 Codigo: Dolar australiano
+20:21:00 Extrayendo datos peticion POST: 
+20:21:00 Resultado: OK valor: 551.7
+20:21:00 Documento Insertado en BD
+20:21:10 Codigo: Dolar canadiense
+20:21:11 Extrayendo datos peticion POST: 
+20:21:11 Resultado: OK valor: 587.38
+20:21:11 Documento Insertado en BD
+20:21:15 Codigo: Dolar
+20:21:17 Extrayendo datos peticion POST: 
+20:21:17 Resultado: OK valor: 772.05
+20:21:17 Documento Insertado en BD
+20:21:37 Codigo: Dolar neozelandes
+20:21:38 Extrayendo datos peticion POST: 
+20:21:38 Resultado: OK valor: 519.06
+20:21:38 Documento Insertado en BD
+20:21:43 Codigo: Franco suizo
+20:21:45 Extrayendo datos peticion POST: 
+20:21:45 Resultado: OK valor: 851.68
+20:21:45 Documento Insertado en BD
+20:21:49 Codigo: Libra esterlina
+20:21:51 Extrayendo datos peticion POST: 
+20:21:51 Resultado: OK valor: 1008.82
+20:21:51 Documento Insertado en BD
+20:21:51 Codigo: sol peruano
+20:21:54 Extrayendo datos peticion POST: 
+20:21:54 Resultado: OK valor: 214.13
+20:21:54 Documento Insertado en BD
+20:21:54 Codigo: Peso colombiano
+20:21:55 Extrayendo datos peticion POST: 
+20:21:55 Resultado: OK valor: 0.2
+20:21:55 Documento Insertado en BD
+20:21:55 Codigo: Real
+20:21:57 Extrayendo datos peticion POST: 
+20:21:57 Resultado: OK valor: 136.51
+20:21:57 Documento Insertado en BD
+20:21:57 Codigo: Yuan
+20:21:58 Extrayendo datos peticion POST: 
+20:21:58 Resultado: OK valor: 115.23
+20:21:58 Documento Insertado en BD
+20:21:58 Codigo: UF
+20:22:00 Extrayendo datos peticion POST: 
+20:22:00 Resultado: OK valor: 28821.94
+20:22:00 Documento Insertado en BD
+20:28:54 Iniciando proceso
+20:28:55 Iniciando proceso descarga TC Fecha: 2020-10-29
+20:28:55 Codigo: Euro
+20:28:56 Extrayendo datos peticion POST: 
+20:28:56 Resultado: OK valor: 911.03
+20:28:56 Documento Insertado en BD
+20:28:56 Codigo: Dolar australiano
+20:28:57 Extrayendo datos peticion POST: 
+20:28:57 Resultado: OK valor: 547.25
+20:28:57 Documento Insertado en BD
+20:28:57 Codigo: Dolar canadiense
+20:28:58 Extrayendo datos peticion POST: 
+20:28:58 Resultado: OK valor: 582.43
+20:28:58 Documento Insertado en BD
+20:28:58 Codigo: Dolar
+20:29:01 Extrayendo datos peticion POST: 
+20:29:01 Resultado: OK valor: 775.56
+20:29:01 Documento Insertado en BD
+20:29:01 Codigo: Dolar neozelandes
+20:29:02 Extrayendo datos peticion POST: 
+20:29:02 Resultado: OK valor: 515.97
+20:29:02 Documento Insertado en BD
+20:29:02 Codigo: Franco suizo
+20:29:03 Extrayendo datos peticion POST: 
+20:29:03 Resultado: OK valor: 852.26
+20:29:03 Documento Insertado en BD
+20:29:03 Codigo: Libra esterlina
+20:29:04 Extrayendo datos peticion POST: 
+20:29:04 Resultado: OK valor: 1006.57
+20:29:04 Documento Insertado en BD
+20:29:04 Codigo: sol peruano
+20:29:07 Extrayendo datos peticion POST: 
+20:29:07 Resultado: OK valor: 214.8
+20:29:07 Documento Insertado en BD
+20:29:07 Codigo: Peso colombiano
+20:29:09 Extrayendo datos peticion POST: 
+20:29:09 Resultado: OK valor: 0.2
+20:29:09 Documento Insertado en BD
+20:29:09 Codigo: Real
+20:29:10 Extrayendo datos peticion POST: 
+20:29:10 Resultado: OK valor: 135.19
+20:29:10 Documento Insertado en BD
+20:29:10 Codigo: Yuan
+20:29:11 Extrayendo datos peticion POST: 
+20:29:11 Resultado: OK valor: 115.22
+20:29:11 Documento Insertado en BD
+20:29:11 Codigo: UF
+20:29:13 Extrayendo datos peticion POST: 
+20:29:13 Resultado: OK valor: 28827.5
+20:29:13 Documento Insertado en BD
+20:30:08 Iniciando proceso
+20:30:09 Iniciando proceso descarga TC Fecha: 2020-10-29
+20:30:09 Codigo: Euro
+20:30:10 Extrayendo datos peticion POST: 
+20:30:10 Resultado: OK valor: 911.03
+20:30:10 Documento Insertado en BD
+20:30:10 Codigo: Dolar australiano
+20:30:11 Extrayendo datos peticion POST: 
+20:30:11 Resultado: OK valor: 547.25
+20:30:11 Documento Insertado en BD
+20:30:11 Codigo: Dolar canadiense
+20:30:13 Extrayendo datos peticion POST: 
+20:30:13 Resultado: OK valor: 582.43
+20:30:13 Documento Insertado en BD
+20:30:13 Codigo: Dolar
+20:30:15 Extrayendo datos peticion POST: 
+20:30:15 Resultado: OK valor: 775.56
+20:30:15 Documento Insertado en BD
+20:30:15 Codigo: Dolar neozelandes
+20:30:16 Extrayendo datos peticion POST: 
+20:30:16 Resultado: OK valor: 515.97
+20:30:16 Documento Insertado en BD
+20:30:16 Codigo: Franco suizo
+20:30:17 Extrayendo datos peticion POST: 
+20:30:17 Resultado: OK valor: 852.26
+20:30:17 Documento Insertado en BD
+20:30:17 Codigo: Libra esterlina
+20:30:19 Extrayendo datos peticion POST: 
+20:30:19 Resultado: OK valor: 1006.57
+20:30:19 Documento Insertado en BD
+20:30:19 Codigo: sol peruano
+20:30:21 Extrayendo datos peticion POST: 
+20:30:21 Resultado: OK valor: 214.8
+20:30:21 Documento Insertado en BD
+20:30:21 Codigo: Peso colombiano
+20:30:22 Extrayendo datos peticion POST: 
+20:30:22 Resultado: OK valor: 0.2
+20:30:22 Documento Insertado en BD
+20:30:22 Codigo: Real
+20:30:23 Extrayendo datos peticion POST: 
+20:30:23 Resultado: OK valor: 135.19
+20:30:23 Documento Insertado en BD
+20:30:23 Codigo: Yuan
+20:30:25 Extrayendo datos peticion POST: 
+20:30:25 Resultado: OK valor: 115.22
+20:30:25 Documento Insertado en BD
+20:30:25 Codigo: UF
+20:30:27 Extrayendo datos peticion POST: 
+20:30:27 Resultado: OK valor: 28827.5
+20:30:27 Documento Insertado en BD
+20:30:27 Fin del proceso
+20:31:40 Iniciando proceso
+20:31:41 Iniciando proceso descarga TC Fecha: 2020-10-30
+20:31:41 Codigo: Euro
+20:31:43 Extrayendo datos peticion POST: 
+20:31:43 Codigo: Dolar australiano
+20:31:44 Extrayendo datos peticion POST: 
+20:31:44 Codigo: Dolar canadiense
+20:31:45 Extrayendo datos peticion POST: 
+20:31:45 Codigo: Dolar
+20:31:48 Extrayendo datos peticion POST: 
+20:31:48 Codigo: Dolar neozelandes
+20:31:49 Extrayendo datos peticion POST: 
+20:31:49 Codigo: Franco suizo
+20:31:50 Extrayendo datos peticion POST: 
+20:31:50 Codigo: Libra esterlina
+20:31:52 Extrayendo datos peticion POST: 
+20:31:52 Codigo: sol peruano
+20:31:55 Extrayendo datos peticion POST: 
+20:31:55 Codigo: Peso colombiano
+20:31:56 Extrayendo datos peticion POST: 
+20:31:56 Codigo: Real
+20:31:58 Extrayendo datos peticion POST: 
+20:31:58 Codigo: Yuan
+20:31:59 Extrayendo datos peticion POST: 
+20:31:59 Codigo: UF
+20:32:02 Extrayendo datos peticion POST: 
+20:32:02 Resultado: OK valor: 28833.07
+20:32:02 Documento Insertado en BD
+20:32:02 Fin del proceso
+20:33:26 Iniciando proceso
+20:33:27 Iniciando proceso descarga TC Fecha: 2020-10-29
+20:33:27 Codigo: Euro
+20:33:29 Extrayendo datos peticion POST: 
+20:33:29 Resultado: OK valor: 911.03
+20:33:59 AppConsoleTC.Controlador
+insetarDocumentoBD - A timeout occured after 30000ms selecting a server using CompositeServerSelector{ Selectors = MongoDB.Driver.MongoClient+AreSessionsSupportedServerSelector, LatencyLimitingServerSelector{ AllowedLatencyRange = 00:00:00.0150000 } }. Client view of cluster state is { ClusterId : "1", ConnectionMode : "Automatic", Type : "Unknown", State : "Disconnected", Servers : [{ ServerId: "{ ClusterId : 1, EndPoint : "Unspecified/localhost:27017" }", EndPoint: "Unspecified/localhost:27017", ReasonChanged: "Heartbeat", State: "Disconnected", ServerVersion: , TopologyVersion: , Type: "Unknown", HeartbeatException: "MongoDB.Driver.MongoConnectionException: An exception occurred while opening a connection to the server.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): No connection could be made because the target machine actively refused it. [::1]:27017
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.<>c.<ConnectAsync>b__274_0(IAsyncResult iar)
+--- End of stack trace from previous location where exception was thrown ---
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.ConnectAsync(Socket socket, EndPoint endPoint, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.CreateStreamAsync(EndPoint endPoint, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelperAsync(CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelperAsync(CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.InitializeConnectionAsync(CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.HeartbeatAsync(CancellationToken cancellationToken)", LastHeartbeatTimestamp: "2020-10-28T23:33:56.7165138Z", LastUpdateTimestamp: "2020-10-28T23:33:56.7165184Z" }] }.
+
+20:33:59 Codigo: Dolar australiano
+20:34:00 Extrayendo datos peticion POST: 
+20:34:00 Resultado: OK valor: 547.25
+20:34:30 AppConsoleTC.Controlador
+insetarDocumentoBD - A timeout occured after 30000ms selecting a server using CompositeServerSelector{ Selectors = MongoDB.Driver.MongoClient+AreSessionsSupportedServerSelector, LatencyLimitingServerSelector{ AllowedLatencyRange = 00:00:00.0150000 } }. Client view of cluster state is { ClusterId : "1", ConnectionMode : "Automatic", Type : "Unknown", State : "Disconnected", Servers : [{ ServerId: "{ ClusterId : 1, EndPoint : "Unspecified/localhost:27017" }", EndPoint: "Unspecified/localhost:27017", ReasonChanged: "Heartbeat", State: "Disconnected", ServerVersion: , TopologyVersion: , Type: "Unknown", HeartbeatException: "MongoDB.Driver.MongoConnectionException: An exception occurred while opening a connection to the server.
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): No connection could be made because the target machine actively refused it. [::1]:27017
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.<>c.<ConnectAsync>b__274_0(IAsyncResult iar)
+--- End of stack trace from previous location where exception was thrown ---
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.ConnectAsync(Socket socket, EndPoint endPoint, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Connections.TcpStreamFactory.CreateStreamAsync(EndPoint endPoint, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelperAsync(CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelperAsync(CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.InitializeConnectionAsync(CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.ServerMonitor.HeartbeatAsync(CancellationToken cancellationToken)", LastHeartbeatTimestamp: "2020-10-28T23:34:26.3395954Z", LastUpdateTimestamp: "2020-10-28T23:34:26.3395956Z" }] }.
+
+20:34:30 Codigo: Dolar canadiense
+20:34:32 Extrayendo datos peticion POST: 
+20:34:32 Resultado: OK valor: 582.43
+2020102820:37:40 Iniciando proceso
+2020102820:37:41 Iniciando proceso descarga TC Fecha: 2020-10-29
+2020102820:37:41 Codigo: Euro
+2020102820:37:44 Extrayendo datos peticion POST: 
+2020102820:37:44 Resultado: OK valor: 911.03
+2020-10-28:20:39:33 Iniciando proceso
+2020-10-28:20:39:35 Iniciando proceso descarga TC Fecha: 2020-10-29
+2020-10-28:20:39:35 Codigo: Euro
+2020-10-28:20:39:36 Extrayendo datos peticion POST: 
+2020-10-28:20:39:36 Resultado: OK valor: 911.03
+2020-10-29:18:29:45 Iniciando proceso
+2020-10-29:18:29:46 Iniciando proceso descarga TC Fecha: 2020-10-30
+2020-10-29:18:29:46 Codigo: Euro
+2020-10-29:18:29:48 Extrayendo datos peticion POST: 
+2020-10-29:18:29:48 Resultado: OK valor: 897.65
+2020-10-29:18:29:48 Documento Insertado en BD
+2020-10-29:18:29:48 Codigo: Dolar australiano
+2020-10-29:18:29:49 Extrayendo datos peticion POST: 
+2020-10-29:18:29:49 Resultado: OK valor: 540.25
+2020-10-29:18:29:49 Documento Insertado en BD
+2020-10-29:18:29:49 Codigo: Dolar canadiense
+2020-10-29:18:29:51 Extrayendo datos peticion POST: 
+2020-10-29:18:29:51 Resultado: OK valor: 577.03
+2020-10-29:18:29:51 Documento Insertado en BD
+2020-10-29:18:29:51 Codigo: Dolar
+2020-10-29:18:29:55 Extrayendo datos peticion POST: 
+2020-10-29:18:29:55 Resultado: OK valor: 770.45
+2020-10-29:18:29:55 Documento Insertado en BD
+2020-10-29:18:29:55 Codigo: Dolar neozelandes
+2020-10-29:18:29:56 Extrayendo datos peticion POST: 
+2020-10-29:18:29:56 Resultado: OK valor: 509.19
+2020-10-29:18:29:56 Documento Insertado en BD
+2020-10-29:18:29:56 Codigo: Franco suizo
+2020-10-29:18:29:57 Extrayendo datos peticion POST: 
+2020-10-29:18:29:57 Resultado: OK valor: 840
+2020-10-29:18:29:57 Documento Insertado en BD
+2020-10-29:18:29:57 Codigo: Libra esterlina
+2020-10-29:18:29:59 Extrayendo datos peticion POST: 
+2020-10-29:18:29:59 Resultado: OK valor: 994
+2020-10-29:18:29:59 Documento Insertado en BD
+2020-10-29:18:29:59 Codigo: sol peruano
+2020-10-29:18:30:02 Extrayendo datos peticion POST: 
+2020-10-29:18:30:02 Resultado: OK valor: 213.43
+2020-10-29:18:30:02 Documento Insertado en BD
+2020-10-29:18:30:02 Codigo: Peso colombiano
+2020-10-29:18:30:04 Extrayendo datos peticion POST: 
+2020-10-29:18:30:04 Resultado: OK valor: 0.2
+2020-10-29:18:30:04 Documento Insertado en BD
+2020-10-29:18:30:04 Codigo: Real
+2020-10-29:18:30:05 Extrayendo datos peticion POST: 
+2020-10-29:18:30:05 Resultado: OK valor: 133.61
+2020-10-29:18:30:05 Documento Insertado en BD
+2020-10-29:18:30:05 Codigo: Yuan
+2020-10-29:18:30:07 Extrayendo datos peticion POST: 
+2020-10-29:18:30:07 Resultado: OK valor: 114.77
+2020-10-29:18:30:07 Documento Insertado en BD
+2020-10-29:18:30:07 Codigo: UF
+2020-10-29:18:30:09 Extrayendo datos peticion POST: 
+2020-10-29:18:30:09 Resultado: OK valor: 28833.07
+2020-10-29:18:30:09 Documento Insertado en BD
+2020-10-29:18:30:09 Fin del proceso
+2020-10-31:11:23:09 Iniciando proceso
+2020-10-31:11:23:10 Iniciando proceso descarga TC Fecha: 2020-10-30
+2020-10-31:11:23:10 Codigo: Euro
+2020-10-31:11:23:12 Extrayendo datos peticion POST: 
+2020-10-31:11:23:12 Resultado: OK valor: 897.65
+2020-10-31:11:23:12 Documento Insertado en BD
+2020-10-31:11:23:12 Codigo: Dolar australiano
+2020-10-31:11:23:14 Extrayendo datos peticion POST: 
+2020-10-31:11:23:14 Resultado: OK valor: 540.25
+2020-10-31:11:23:14 Documento Insertado en BD
+2020-10-31:11:23:14 Codigo: Dolar canadiense
+2020-10-31:11:23:15 Extrayendo datos peticion POST: 
+2020-10-31:11:23:15 Resultado: OK valor: 577.03
+2020-10-31:11:23:15 Documento Insertado en BD
+2020-10-31:11:23:15 Codigo: Dolar
+2020-10-31:11:23:18 Extrayendo datos peticion POST: 
+2020-10-31:11:23:18 Resultado: OK valor: 770.45
+2020-10-31:11:23:18 Documento Insertado en BD
+2020-10-31:11:23:18 Codigo: Dolar neozelandes
+2020-10-31:11:23:19 Extrayendo datos peticion POST: 
+2020-10-31:11:23:19 Resultado: OK valor: 509.19
+2020-10-31:11:23:19 Documento Insertado en BD
+2020-10-31:11:23:19 Codigo: Franco suizo
+2020-10-31:11:23:21 Extrayendo datos peticion POST: 
+2020-10-31:11:23:21 Resultado: OK valor: 840
+2020-10-31:11:23:21 Documento Insertado en BD
+2020-10-31:11:23:21 Codigo: Libra esterlina
+2020-10-31:11:23:22 Extrayendo datos peticion POST: 
+2020-10-31:11:23:22 Resultado: OK valor: 994
+2020-10-31:11:23:22 Documento Insertado en BD
+2020-10-31:11:23:22 Codigo: sol peruano
+2020-10-31:11:23:25 Extrayendo datos peticion POST: 
+2020-10-31:11:23:25 Resultado: OK valor: 213.43
+2020-10-31:11:23:25 Documento Insertado en BD
+2020-10-31:11:23:25 Codigo: Peso colombiano
+2020-10-31:11:23:26 Extrayendo datos peticion POST: 
+2020-10-31:11:23:26 Resultado: OK valor: 0.2
+2020-10-31:11:23:26 Documento Insertado en BD
+2020-10-31:11:23:26 Codigo: Real
+2020-10-31:11:23:28 Extrayendo datos peticion POST: 
+2020-10-31:11:23:28 Resultado: OK valor: 133.61
+2020-10-31:11:23:28 Documento Insertado en BD
+2020-10-31:11:23:28 Codigo: Yuan
+2020-10-31:11:23:29 Extrayendo datos peticion POST: 
+2020-10-31:11:23:29 Resultado: OK valor: 114.77
+2020-10-31:11:23:29 Documento Insertado en BD
+2020-10-31:11:23:29 Codigo: UF
+2020-10-31:11:23:33 Extrayendo datos peticion POST: 
+2020-10-31:11:23:33 Resultado: OK valor: 28833.07
+2020-10-31:11:23:33 Documento Insertado en BD
+2020-10-31:11:23:33 Fin del proceso
+2020-10-31:20:57:58 Iniciando proceso
+2020-10-31:20:57:59 Iniciando proceso descarga TC Fecha: 2020-10-31
+2020-10-31:20:57:59 Codigo: EUR
+2020-10-31:20:58:00 Extrayendo datos peticion POST: 
+2020-10-31:20:58:00 Codigo: Dolar australiano
+2020-10-31:20:58:01 Extrayendo datos peticion POST: 
+2020-10-31:20:58:01 Codigo: Dolar canadiense
+2020-10-31:20:58:02 Extrayendo datos peticion POST: 
+2020-10-31:20:58:02 Codigo: USD
+2020-10-31:20:58:05 Extrayendo datos peticion POST: 
+2020-10-31:20:58:05 Codigo: Dolar neozelandes
+2020-10-31:20:58:07 Extrayendo datos peticion POST: 
+2020-10-31:20:58:07 Codigo: FR
+2020-10-31:20:58:08 Extrayendo datos peticion POST: 
+2020-10-31:20:58:08 Codigo: Libra esterlina
+2020-10-31:20:58:09 Extrayendo datos peticion POST: 
+2020-10-31:20:58:09 Codigo: sol peruano
+2020-10-31:20:58:12 Extrayendo datos peticion POST: 
+2020-10-31:20:58:12 Codigo: Peso colombiano
+2020-10-31:20:58:13 Extrayendo datos peticion POST: 
+2020-10-31:20:58:13 Codigo: Real
+2020-10-31:20:58:14 Extrayendo datos peticion POST: 
+2020-10-31:20:58:14 Codigo: Yuan
+2020-10-31:20:58:15 Extrayendo datos peticion POST: 
+2020-10-31:20:58:15 Codigo: UF
+2020-10-31:20:58:18 Extrayendo datos peticion POST: 
+2020-10-31:20:58:18 Resultado: OK valor: 28838.63
+2020-10-31:20:58:18 Documento Insertado en BD
+2020-10-31:20:58:18 Codigo: UTM
+2020-10-31:20:58:19 Extrayendo datos peticion POST: 
+2020-10-31:20:58:19 Resultado: OK valor: 50372
+2020-10-31:20:58:19 Documento Insertado en BD
+2020-10-31:20:58:19 Fin del proceso
+2020-10-31:21:05:07 Iniciando proceso
+2020-10-31:21:05:08 Iniciando proceso descarga TC Fecha: 2020-10-31
+2020-10-31:21:05:08 Codigo: UTM
+2020-10-31:21:05:10 Extrayendo datos peticion POST: 
+2020-10-31:21:05:10 Resultado: OK valor: 50372
+2020-10-31:21:06:19 Documento Insertado en BD
+2020-10-31:21:06:22 Codigo: EUR
+2020-10-31:21:06:23 Extrayendo datos peticion POST: 
+2020-10-31:21:06:23 Codigo: Dolar australiano
+2020-10-31:21:06:25 Extrayendo datos peticion POST: 
+2020-10-31:21:06:25 Codigo: Dolar canadiense
+2020-10-31:21:06:27 Extrayendo datos peticion POST: 
+2020-10-31:21:06:27 Codigo: USD
+2020-10-31:21:06:28 Extrayendo datos peticion POST: 
+2020-10-31:21:06:28 Codigo: Dolar neozelandes
+2020-10-31:21:06:30 Extrayendo datos peticion POST: 
+2020-10-31:21:06:30 Codigo: FR
+2020-10-31:21:06:31 Extrayendo datos peticion POST: 
+2020-10-31:21:06:31 Codigo: Libra esterlina
+2020-10-31:21:06:34 Extrayendo datos peticion POST: 
+2020-10-31:21:06:34 Codigo: sol peruano
+2020-10-31:21:06:37 Extrayendo datos peticion POST: 
+2020-10-31:21:06:37 Codigo: Peso colombiano
+2020-10-31:21:06:38 Extrayendo datos peticion POST: 
+2020-10-31:21:06:38 Codigo: Real
+2020-10-31:21:06:40 Extrayendo datos peticion POST: 
+2020-10-31:21:06:40 Codigo: Yuan
+2020-10-31:21:06:43 Extrayendo datos peticion POST: 
+2020-10-31:21:06:43 Codigo: UF
+2020-10-31:21:06:45 Extrayendo datos peticion POST: 
+2020-10-31:21:06:45 Resultado: OK valor: 28838.63
+2020-10-31:21:06:50 Documento Insertado en BD
+2020-10-31:21:13:42 Iniciando proceso
+2020-10-31:21:13:44 Iniciando proceso descarga TC Fecha: 2020-10-31
+2020-10-31:21:13:44 Codigo: UTM
+2020-10-31:21:13:45 Extrayendo datos peticion POST: 
+2020-10-31:21:13:45 Resultado: OK valor: 50372
+2020-10-31:21:14:04 Documento Insertado en BD
+2020-10-31:21:14:04 Codigo: EUR
+2020-10-31:21:14:05 Extrayendo datos peticion POST: 
+2020-10-31:21:14:05 Codigo: Dolar australiano
+2020-10-31:21:14:07 Extrayendo datos peticion POST: 
+2020-10-31:21:14:07 Codigo: Dolar canadiense
+2020-10-31:21:14:09 Extrayendo datos peticion POST: 
+2020-10-31:21:14:09 Codigo: USD
+2020-10-31:21:14:10 Extrayendo datos peticion POST: 
+2020-10-31:21:14:10 Codigo: Dolar neozelandes
+2020-10-31:21:14:11 Extrayendo datos peticion POST: 
+2020-10-31:21:14:11 Codigo: FR
+2020-10-31:21:14:12 Extrayendo datos peticion POST: 
+2020-10-31:21:14:12 Codigo: Libra esterlina
+2020-10-31:21:14:15 Extrayendo datos peticion POST: 
+2020-10-31:21:14:15 Codigo: sol peruano
+2020-10-31:21:14:16 Extrayendo datos peticion POST: 
+2020-10-31:21:14:16 Codigo: Peso colombiano
+2020-10-31:21:14:17 Extrayendo datos peticion POST: 
+2020-10-31:21:14:17 Codigo: Real
+2020-10-31:21:14:18 Extrayendo datos peticion POST: 
+2020-10-31:21:14:18 Codigo: Yuan
+2020-10-31:21:14:21 Extrayendo datos peticion POST: 
+2020-10-31:21:14:21 Codigo: UF
+2020-10-31:21:14:23 Extrayendo datos peticion POST: 
+2020-10-31:21:14:23 Resultado: OK valor: 28838.63
+2020-10-31:21:14:42 Documento Insertado en BD
+2020-10-31:21:14:42 Fin del proceso
+2020-10-31:21:20:09 Iniciando proceso
+2020-10-31:21:20:10 Iniciando proceso descarga TC Fecha: 2020-10-30
+2020-10-31:21:20:10 Codigo: UTM
+2020-10-31:21:20:12 Extrayendo datos peticion POST: 
+2020-10-31:21:20:12 Resultado: OK valor: 50372
+2020-10-31:21:20:12 Documento Insertado en BD
+2020-10-31:21:20:12 Codigo: EUR
+2020-10-31:21:20:14 Extrayendo datos peticion POST: 
+2020-10-31:21:20:14 Resultado: OK valor: 897.65
+2020-10-31:21:20:14 Documento Insertado en BD
+2020-10-31:21:20:14 Codigo: Dolar australiano
+2020-10-31:21:20:15 Extrayendo datos peticion POST: 
+2020-10-31:21:20:15 Resultado: OK valor: 540.25
+2020-10-31:21:20:15 Documento Insertado en BD
+2020-10-31:21:20:15 Codigo: Dolar canadiense
+2020-10-31:21:20:18 Extrayendo datos peticion POST: 
+2020-10-31:21:20:18 Resultado: OK valor: 577.03
+2020-10-31:21:20:18 Documento Insertado en BD
+2020-10-31:21:20:18 Codigo: USD
+2020-10-31:21:20:20 Extrayendo datos peticion POST: 
+2020-10-31:21:20:20 Resultado: OK valor: 770.45
+2020-10-31:21:20:20 Documento Insertado en BD
+2020-10-31:21:20:20 Codigo: Dolar neozelandes
+2020-10-31:21:20:21 Extrayendo datos peticion POST: 
+2020-10-31:21:20:21 Resultado: OK valor: 509.19
+2020-10-31:21:20:21 Documento Insertado en BD
+2020-10-31:21:20:21 Codigo: FR
+2020-10-31:21:20:22 Extrayendo datos peticion POST: 
+2020-10-31:21:20:22 Resultado: OK valor: 840
+2020-10-31:21:20:22 Documento Insertado en BD
+2020-10-31:21:20:22 Codigo: Libra esterlina
+2020-10-31:21:20:25 Extrayendo datos peticion POST: 
+2020-10-31:21:20:25 Resultado: OK valor: 994
+2020-10-31:21:20:25 Documento Insertado en BD
+2020-10-31:21:20:25 Codigo: sol peruano
+2020-10-31:21:20:27 Extrayendo datos peticion POST: 
+2020-10-31:21:20:27 Resultado: OK valor: 213.43
+2020-10-31:21:20:27 Documento Insertado en BD
+2020-10-31:21:20:27 Codigo: Peso colombiano
+2020-10-31:21:20:28 Extrayendo datos peticion POST: 
+2020-10-31:21:20:28 Resultado: OK valor: 0.2
+2020-10-31:21:20:28 Documento Insertado en BD
+2020-10-31:21:20:28 Codigo: Real
+2020-10-31:21:20:29 Extrayendo datos peticion POST: 
+2020-10-31:21:20:29 Resultado: OK valor: 133.61
+2020-10-31:21:20:29 Documento Insertado en BD
+2020-10-31:21:20:29 Codigo: Yuan
+2020-10-31:21:20:32 Extrayendo datos peticion POST: 
+2020-10-31:21:20:32 Resultado: OK valor: 114.77
+2020-10-31:21:20:32 Documento Insertado en BD
+2020-10-31:21:20:32 Codigo: UF
+2020-10-31:21:20:34 Extrayendo datos peticion POST: 
+2020-10-31:21:20:34 Resultado: OK valor: 28833.07
+2020-10-31:21:20:34 Documento Insertado en BD
+2020-10-31:21:20:34 Fin del proceso
+2020-11-03:16:22:38 Iniciando proceso
+2020-11-03:16:22:39 Iniciando proceso descarga TC Fecha: 2020-11-03
+2020-11-03:16:22:39 Codigo: UTM
+2020-11-03:16:22:40 Extrayendo datos peticion POST: 
+2020-11-03:16:22:40 Resultado: OK valor: 50674
+2020-11-03:16:22:41 Documento Insertado en BD
+2020-11-03:16:22:41 Codigo: EUR
+2020-11-03:16:22:42 Extrayendo datos peticion POST: 
+2020-11-03:16:22:42 Resultado: OK valor: 894.38
+2020-11-03:16:22:42 Documento Insertado en BD
+2020-11-03:16:22:42 Codigo: Dolar australiano
+2020-11-03:16:22:43 Extrayendo datos peticion POST: 
+2020-11-03:16:22:43 Resultado: OK valor: 541.63
+2020-11-03:16:22:43 Documento Insertado en BD
+2020-11-03:16:22:43 Codigo: Dolar canadiense
+2020-11-03:16:22:45 Extrayendo datos peticion POST: 
+2020-11-03:16:22:45 Resultado: OK valor: 580.37
+2020-11-03:16:22:45 Documento Insertado en BD
+2020-11-03:16:22:45 Codigo: USD
+2020-11-03:16:22:46 Extrayendo datos peticion POST: 
+2020-11-03:16:22:46 Resultado: OK valor: 769.17
+2020-11-03:16:22:46 Documento Insertado en BD
+2020-11-03:16:22:46 Codigo: Dolar neozelandes
+2020-11-03:16:22:48 Extrayendo datos peticion POST: 
+2020-11-03:16:22:48 Resultado: OK valor: 509.35
+2020-11-03:16:22:48 Documento Insertado en BD
+2020-11-03:16:22:48 Codigo: FR
+2020-11-03:16:22:49 Extrayendo datos peticion POST: 
+2020-11-03:16:22:49 Resultado: OK valor: 835.69
+2020-11-03:16:22:49 Documento Insertado en BD
+2020-11-03:16:22:49 Codigo: Libra esterlina
+2020-11-03:16:22:51 Extrayendo datos peticion POST: 
+2020-11-03:16:22:51 Resultado: OK valor: 991.97
+2020-11-03:16:22:51 Documento Insertado en BD
+2020-11-03:16:22:51 Codigo: sol peruano
+2020-11-03:16:22:52 Extrayendo datos peticion POST: 
+2020-11-03:16:22:52 Resultado: OK valor: 212.78
+2020-11-03:16:22:52 Documento Insertado en BD
+2020-11-03:16:22:52 Codigo: Peso colombiano
+2020-11-03:16:22:53 Extrayendo datos peticion POST: 
+2020-11-03:16:22:53 Resultado: OK valor: 0.2
+2020-11-03:16:22:53 Documento Insertado en BD
+2020-11-03:16:22:53 Codigo: Real
+2020-11-03:16:22:55 Extrayendo datos peticion POST: 
+2020-11-03:16:22:55 Resultado: OK valor: 133.95
+2020-11-03:16:22:55 Documento Insertado en BD
+2020-11-03:16:22:55 Codigo: Yuan
+2020-11-03:16:22:57 Extrayendo datos peticion POST: 
+2020-11-03:16:22:57 Resultado: OK valor: 114.97
+2020-11-03:16:22:57 Documento Insertado en BD
+2020-11-03:16:22:57 Codigo: UF
+2020-11-03:16:22:58 Extrayendo datos peticion POST: 
+2020-11-03:16:22:58 Resultado: OK valor: 28855.33
+2020-11-03:16:22:58 Documento Insertado en BD
+2020-11-03:16:22:58 Fin del proceso
+2021-02-27:21:29:38 Iniciando proceso
+2021-02-27:21:29:40 Iniciando proceso descarga TC Fecha: 2021-02-27
+2021-02-27:21:29:40 Codigo: UTM
+2021-02-27:21:30:41 Extrayendo datos peticion POST: 
+2021-02-27:21:31:31 Resultado: OK valor: 51131
+2021-02-27:21:34:17 Iniciando proceso
+2021-02-27:21:34:18 Iniciando proceso descarga TC Fecha: 2021-02-27
+2021-02-27:21:34:18 Codigo: UTM
+2021-02-27:21:35:31 Extrayendo datos peticion POST: 
+2021-02-27:21:35:50 Resultado: OK valor: 51131
+2021-02-27:21:35:55 Documento Insertado en BD
+2021-02-27:21:35:57 Codigo: UF
+2021-02-27:21:36:13 Extrayendo datos peticion POST: 
+2021-02-27:21:36:20 Resultado: OK valor: 29280.09
+2021-02-27:21:36:22 Documento Insertado en BD
+2021-02-27:21:36:22 Codigo: EUR
+2021-02-27:21:37:27 Extrayendo datos peticion POST: 
+2021-02-27:21:38:08 Codigo: Dolar australiano
+2021-02-27:21:38:13 Extrayendo datos peticion POST: 
+2021-02-27:21:41:43 Iniciando proceso
+2021-02-27:21:41:45 Iniciando proceso descarga TC Fecha: 2021-02-27
+2021-02-27:21:41:45 Codigo: UTM
+2021-02-27:21:41:51 Extrayendo datos peticion POST: 
+2021-02-27:21:43:01 Codigo: EUR
+2021-02-27:21:43:13 Extrayendo datos peticion POST: 
+2021-02-27:22:10:51 Iniciando proceso
+2021-02-27:22:11:05 Iniciando proceso descarga TC Fecha: 2021-02-28
+2021-02-27:22:11:05 Codigo: UTM
+2021-02-27:22:11:11 Extrayendo datos peticion POST: 
+2021-02-27:22:11:33 Resultado: OK valor: 51131
+2021-02-27:22:11:34 Documento Insertado en BD
+2021-02-27:22:11:39 Codigo: EUR
+2021-02-27:22:11:47 Extrayendo datos peticion POST: 
+2021-02-27:22:12:12 Iniciando proceso
+2021-02-27:22:13:37 Iniciando proceso descarga TC Fecha: 2021-03-01
+2021-02-27:22:13:50 Codigo: UTM
+2021-02-27:22:15:39 Iniciando proceso
+2021-02-27:22:30:19 Iniciando proceso
+2021-02-27:22:30:37 Iniciando proceso descarga TC Fecha: 2021-02-28
+2021-02-27:22:30:48 Codigo: UTM
+2021-02-27:22:30:59 Extrayendo datos peticion POST: 
+2021-02-27:22:31:08 Resultado: OK valor: 51131
+2021-02-27:22:31:12 Documento Insertado en BD
+2021-02-27:22:31:12 Codigo: EUR
+2021-02-27:22:31:23 Extrayendo datos peticion POST: 
+2021-02-27:22:31:51 Iniciando proceso
+2021-02-27:22:32:12 Iniciando proceso descarga TC Fecha: 2021-02-27
+2021-02-27:22:32:37 Extrayendo datos peticion POST: 
+2021-02-27:22:32:57 Iniciando proceso
+2021-02-27:22:33:13 Iniciando proceso descarga TC Fecha: 2021-02-26
+2021-02-27:22:52:05 Iniciando proceso
+2021-02-27:22:52:13 Iniciando proceso descarga TC Fecha: 2021-02-28
+2021-02-27:22:52:13 Codigo: UTM
+2021-02-27:22:52:28 Extrayendo datos peticion POST: 
+2021-02-27:22:52:31 Resultado: OK valor: 51131
+2021-02-27:22:52:34 Documento Insertado en BD
+2021-02-27:22:52:34 Codigo: EUR
+2021-02-27:22:52:44 Extrayendo datos peticion POST: 
+2021-02-27:22:53:11 Iniciando proceso
+2021-02-27:22:53:23 Iniciando proceso descarga TC Fecha: 2021-02-27
+2021-02-27:22:54:02 Extrayendo datos peticion POST: 
+2021-02-27:22:54:23 Iniciando proceso
+2021-02-27:22:54:28 Iniciando proceso descarga TC Fecha: 2021-02-26
+2021-02-27:22:54:53 Extrayendo datos peticion POST: 
+2021-02-27:22:55:31 Resultado: OK valor: 865.89
+2021-02-27:22:55:42 Documento Insertado en BD
+2021-02-27:22:56:06 Fin del proceso
+2021-02-27:22:56:23 Fin del proceso
+2021-02-27:22:56:40 Codigo: Dolar australiano
+2021-02-27:22:57:03 Extrayendo datos peticion POST: 
+2021-02-27:22:57:26 Iniciando proceso
+2021-02-27:22:57:29 Iniciando proceso descarga TC Fecha: 2021-02-27
+2021-02-27:22:57:33 Extrayendo datos peticion POST: 
+2021-02-27:22:57:41 Iniciando proceso
+2021-02-27:22:57:43 Iniciando proceso descarga TC Fecha: 2021-02-26
+2021-02-27:23:11:02 Iniciando proceso
+2021-02-27:23:11:05 Iniciando proceso descarga TC Fecha: 2021-02-28
+2021-02-27:23:11:05 Codigo: UTM
+2021-02-27:23:11:10 Extrayendo datos peticion POST: 
+2021-02-27:23:11:12 Resultado: OK valor: 51131
+2021-02-27:23:11:14 Documento Insertado en BD
+2021-02-27:23:11:14 Codigo: EUR
+2021-02-27:23:11:17 Extrayendo datos peticion POST: 
+2021-02-27:23:11:28 Iniciando proceso
+2021-02-27:23:11:30 Iniciando proceso descarga TC Fecha: 2021-02-27
+2021-02-27:23:11:40 Extrayendo datos peticion POST: 
+2021-02-27:23:11:46 Iniciando proceso
+2021-02-27:23:11:48 Iniciando proceso descarga TC Fecha: 2021-02-26
+2021-02-27:23:11:53 Extrayendo datos peticion POST: 
+2021-02-27:23:12:35 Resultado: OK valor: 865.89
+2021-02-27:23:12:37 Documento Insertado en BD
+2021-02-27:23:12:47 Fin del proceso
+2021-02-27:23:12:54 Fin del proceso
+2021-02-27:23:13:01 Codigo: Dolar australiano
+2021-02-27:23:13:05 Extrayendo datos peticion POST: 
+2021-02-27:23:13:10 Iniciando proceso
+2021-02-27:23:13:11 Iniciando proceso descarga TC Fecha: 2021-02-27
+2021-02-27:23:13:14 Extrayendo datos peticion POST: 
+2021-02-27:23:13:22 Iniciando proceso
+2021-02-27:23:13:23 Iniciando proceso descarga TC Fecha: 2021-02-26
+2021-02-27:23:13:26 Extrayendo datos peticion POST: 
+2021-02-27:23:13:40 Resultado: OK valor: 561.54
+2021-02-27:23:13:42 Documento Insertado en BD
+2021-02-27:23:13:42 Fin del proceso
+2021-02-27:23:13:42 Fin del proceso
+2021-02-27:23:13:42 Codigo: Dolar canadiense
+2021-02-27:23:16:37 Iniciando proceso
+2021-02-27:23:16:44 Iniciando proceso descarga TC Fecha: 2021-02-28
+2021-02-27:23:16:44 Codigo: UTM
+2021-02-27:23:16:48 Extrayendo datos peticion POST: 
+2021-02-27:23:16:52 Resultado: OK valor: 51131
+2021-02-27:23:16:53 Documento Insertado en BD
+2021-02-27:23:16:53 Codigo: EUR
+2021-02-27:23:16:54 Extrayendo datos peticion POST: 
+2021-02-27:23:16:57 Iniciando proceso
+2021-02-27:23:16:58 Iniciando proceso descarga TC Fecha: 2021-02-27
+2021-02-27:23:17:01 Extrayendo datos peticion POST: 
+2021-02-27:23:17:06 Iniciando proceso
+2021-02-27:23:17:07 Iniciando proceso descarga TC Fecha: 2021-02-26
+2021-02-27:23:17:10 Extrayendo datos peticion POST: 
+2021-02-27:23:17:42 Iniciando proceso
+2021-02-27:23:17:55 Iniciando proceso
+2021-02-27:23:17:58 Iniciando proceso descarga TC Fecha: 2021-02-28
+2021-02-27:23:17:58 Codigo: UTM
+2021-02-27:23:18:02 Extrayendo datos peticion POST: 
+2021-02-27:23:18:05 Resultado: OK valor: 51131
+2021-02-27:23:18:06 Documento Insertado en BD
+2021-02-27:23:18:06 Codigo: EUR
+2021-02-27:23:18:09 Extrayendo datos peticion POST: 
+2021-02-27:23:18:13 Iniciando proceso
+2021-02-27:23:18:14 Iniciando proceso descarga TC Fecha: 2021-02-27
+2021-02-27:23:18:17 Extrayendo datos peticion POST: 
+2021-02-27:23:18:22 Iniciando proceso
+2021-02-27:23:18:23 Iniciando proceso descarga TC Fecha: 2021-02-26
+2021-02-27:23:18:27 Extrayendo datos peticion POST: 
+2021-02-27:23:18:48 Resultado: OK valor: 865.89
+2021-02-27:23:18:48 Documento Insertado en BD
+2021-02-27:23:18:48 Fin del proceso
+2021-02-27:23:18:48 Fin del proceso
+2021-02-27:23:18:48 Codigo: Dolar australiano
+2021-02-27:23:18:51 Extrayendo datos peticion POST: 
+2021-02-27:23:18:57 Iniciando proceso
+2021-02-27:23:18:58 Iniciando proceso descarga TC Fecha: 2021-02-27
+2021-02-27:23:19:01 Extrayendo datos peticion POST: 
+2021-02-27:23:19:04 Iniciando proceso
+2021-02-27:23:19:04 Iniciando proceso descarga TC Fecha: 2021-02-26
+2021-02-27:23:19:08 Extrayendo datos peticion POST: 
+2021-02-27:23:19:09 Resultado: OK valor: 561.54
+2021-02-27:23:19:10 Documento Insertado en BD
+2021-02-27:23:19:10 Fin del proceso
+2021-02-27:23:19:10 Fin del proceso
+2021-02-27:23:19:10 Codigo: Dolar canadiense
+2021-02-27:23:19:14 Extrayendo datos peticion POST: 
+2021-02-27:23:19:18 Iniciando proceso
+2021-02-27:23:19:19 Iniciando proceso descarga TC Fecha: 2021-02-27
+2021-02-27:23:19:22 Extrayendo datos peticion POST: 
+2021-02-27:23:19:28 Iniciando proceso
+2021-02-27:23:19:28 Iniciando proceso descarga TC Fecha: 2021-02-26
+2021-02-27:23:19:31 Extrayendo datos peticion POST: 
+2021-02-27:23:19:33 Resultado: OK valor: 564.72
+2021-02-27:23:19:34 Documento Insertado en BD
+2021-02-27:23:19:34 Fin del proceso
+2021-02-27:23:19:34 Fin del proceso
+2021-02-27:23:19:34 Codigo: USD
+2021-02-27:23:19:36 Extrayendo datos peticion POST: 
+2021-02-27:23:24:05 Iniciando proceso
+2021-02-27:23:24:08 Iniciando proceso descarga TC Fecha: 2021-02-27
+2021-02-27:23:24:08 Codigo: UTM
+2021-02-27:23:24:10 Extrayendo datos peticion POST: 
+2021-02-27:23:24:10 Resultado: OK valor: 51131
+2021-02-27:23:24:11 Documento Insertado en BD
+2021-02-27:23:24:11 Codigo: EUR
+2021-02-27:23:24:13 Extrayendo datos peticion POST: 
+2021-02-27:23:24:15 Iniciando proceso
+2021-02-27:23:24:16 Iniciando proceso descarga TC Fecha: 2021-02-26
+2021-02-27:23:24:18 Extrayendo datos peticion POST: 
+2021-02-27:23:24:19 Resultado: OK valor: 865.89
+2021-02-27:23:24:19 Documento Insertado en BD
+2021-02-27:23:24:19 Fin del proceso
+2021-02-27:23:24:19 Codigo: Dolar australiano
+2021-02-27:23:24:21 Extrayendo datos peticion POST: 
+2021-02-27:23:24:24 Iniciando proceso
+2021-02-27:23:24:25 Iniciando proceso descarga TC Fecha: 2021-02-26
+2021-02-27:23:24:27 Extrayendo datos peticion POST: 
+2021-02-27:23:24:29 Resultado: OK valor: 561.54
+2021-02-27:23:24:30 Documento Insertado en BD
+2021-02-27:23:24:30 Fin del proceso
+2021-02-27:23:24:30 Codigo: Dolar canadiense
+2021-02-27:23:24:33 Extrayendo datos peticion POST: 
+2021-02-27:23:24:35 Iniciando proceso
+2021-02-27:23:24:36 Iniciando proceso descarga TC Fecha: 2021-02-26
+2021-02-27:23:24:38 Extrayendo datos peticion POST: 
+2021-02-27:23:24:40 Resultado: OK valor: 564.72
+2021-02-27:23:24:41 Documento Insertado en BD
+2021-02-27:23:24:41 Fin del proceso
+2021-02-27:23:24:41 Codigo: USD

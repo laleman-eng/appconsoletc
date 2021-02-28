@@ -1,0 +1,74 @@
+{
+	"Url": "https://si3.bcentral.cl/SieteWS/sietews.asmx",
+	"dias": 1,
+	"stringConection": "mongodb://localhost",
+	"database":"TC",
+	"collection": "TipoCambio",
+	"series":[
+	{
+		"serie":"F073.UTR.PRE.Z.M",
+		"descripcion": "Unidad tributaria mensual (UTM)",
+		"codigo":"UTM"
+	},
+	{
+		"serie":"F072.CLP.EUR.N.O.D",
+		"descripcion": "Euro",
+		"codigo":"EUR"
+	},
+	{
+		"serie":"F072.CLP.AUD.N.O.D",
+		"descripcion": "Dolar australiano",
+		"codigo":"Dolar australiano"
+	},
+	{
+		"serie":"F072.CLP.CAD.N.O.D",
+		"descripcion": "Dolar canadiense",
+		"codigo":"Dolar canadiense"
+	},
+	{
+		"serie":"F073.TCO.PRE.Z.D",
+		"descripcion": "Dolar de Estados Unidos (Observado)",
+		"codigo":"USD"
+	},
+	{
+		"serie":"F072.CLP.NZD.N.O.D",
+		"descripcion": "Dolar neozelandes",
+		"codigo":"Dolar neozelandes"
+	},	
+	{
+		"serie":"F072.CLP.CHF.N.O.D",
+		"descripcion": "Franco suizo",
+		"codigo":"FR"
+	},
+	{
+		"serie":"F072.CLP.GBP.N.O.D",
+		"descripcion": "Libra esterlina",
+		"codigo":"Libra esterlina"
+	},
+	{
+		"serie":"F072.CLP.PEN.N.O.D",
+		"descripcion": "Nuevo sol peruano",
+		"codigo":"sol peruano"
+	},
+	{
+		"serie":"F072.CLP.COP.N.O.D",
+		"descripcion": "Peso colombiano",
+		"codigo":"Peso colombiano"
+	},
+	{
+		"serie":"F072.CLP.BRL.N.O.D",
+		"descripcion": "Real (Brasil)",
+		"codigo":"Real"
+	},
+	{
+		"serie":"F072.CLP.CNY.N.O.D",
+		"descripcion": "Yuan Renminbi (China)",
+		"codigo":"Yuan"
+	},
+	{
+		"serie":"F073.UFF.PRE.Z.D",
+		"descripcion": "Unidad de fomento (UF)",
+		"codigo":"UF"
+	}
+	]
+}

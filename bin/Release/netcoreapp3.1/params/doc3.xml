@@ -1,0 +1,13 @@
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <GetSeries xmlns="http://bancocentral.org/">
+      <user>967920703</user>
+      <password>DvTaMuXe</password>
+      <firstDate>2020-10-30</firstDate>
+      <lastDate>2020-10-30</lastDate>
+      <seriesIds>
+        <string>F073.UFF.PRE.Z.D</string>
+      </seriesIds>
+    </GetSeries>
+  </soap:Body>
+</soap:Envelope>
