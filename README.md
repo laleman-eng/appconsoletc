@@ -21,8 +21,8 @@ La descripcion del paso a paso de la instalación de la aplicación , se indica 
 [Manual de Usuario](https://visualkchile.sharepoint.com/:w:/s/Desarrollo_VisualD/Efvxhu1TpmpEhNGRhflIXEcBMvyuCciX8EEioVwrN4OBOA?e=hxNLgj "Manual de Usuario")
 
 ## Versionado
-Chnge log
-##Autor
+1.0
+## Autor
 Antonio Sanchez
 ## Licencias
 
